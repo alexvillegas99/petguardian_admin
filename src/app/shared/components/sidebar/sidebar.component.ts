@@ -134,6 +134,7 @@ export class SidebarComponent {
     { route: '/admin/dashboard', label: 'Dashboard', icon: '\u2302', exact: true },
     { route: '/admin/clinics', label: 'Cl\u00ednicas', icon: '\u2695', exact: false },
     { route: '/admin/users', label: 'Usuarios', icon: '\u263A', exact: false },
+    { route: '/admin/catalogs', label: 'Cat\u00e1logos', icon: '\u2636', exact: false },
     { route: '/admin/reports', label: 'Reportes', icon: '\u2637', exact: false },
     { route: '/admin/audit', label: 'Auditor\u00eda', icon: '\u2630', exact: false },
   ];

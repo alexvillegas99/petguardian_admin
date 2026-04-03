@@ -42,6 +42,13 @@ export const routes: Routes = [
           ),
       },
       {
+        path: 'catalogs',
+        loadComponent: () =>
+          import('./features/catalogs/catalogs.component').then(
+            (m) => m.CatalogsComponent
+          ),
+      },
+      {
         path: 'reports',
         loadComponent: () =>
           import('./features/reports/reports.component').then((m) => m.ReportsComponent),
